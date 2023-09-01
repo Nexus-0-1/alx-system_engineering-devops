@@ -1,4 +1,0 @@
-#!/bin/bash
-
-chmod u=rwx,go=rx,u+w,g+w,o+w hello
-
