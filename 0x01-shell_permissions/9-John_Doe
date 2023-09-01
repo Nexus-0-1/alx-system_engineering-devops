@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n "rwxr-x-wx" | chmod -Rv hello
+chmod u=rwx,g=rx,o=wx hello
