@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# Script that displays numbers from 1 to 20 and certain conditions
+
+i=0
+
+while [ $i -lt 20 ]
+do
+    case $i in
+        3)
+            echo "4"
+            echo "bad luck from China"
+            ;;
+        8)
+            echo "9"
+            echo "bad luck from Japan"
+            ;;
+        16)
+            echo "17"
+            echo "bad luck from Italy"
+            ;;
+        *)
+            echo "$((i+1))"
+            ;;
+    esac
+    i=$((i+1))
+done
